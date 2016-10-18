@@ -12,8 +12,8 @@ Jones,Available
 Lobby,Available
 DiningArea,Imaging
 EvansNW,Available
-EvansSE,Available
-EvansSW,Available
+EvansSE,Imaging overflow
+EvansSW,Imaging overflow
 EvansNE,Available
 EvansN,Available
 Floor3AtriumW,Available
