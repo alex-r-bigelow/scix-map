@@ -1,7 +1,7 @@
 Space,Group
 CoonLab,Valerio Pascucci
-Floor3SW,Available
-Floor3SE,Available
+Floor3SW,Imaging overflow
+Floor3SE,Imaging overflow
 Floor4SW,Available
 Floor4SE,Available
 Halverson,Available
@@ -9,15 +9,15 @@ BeerCave,Available
 Floor4AtriumS,Available
 Floor4AtriumN,Available
 Jones,Available
-Lobby,Available
+Lobby,Intro Room
 DiningArea,Imaging
-EvansNW,Available
-EvansSE,Imaging overflow
-EvansSW,Imaging overflow
+EvansNW,Alan Sanderson (Uintah)
+EvansSE,Valerio (PIDX & In Situ Analytics
+EvansSW,Valerio (High Dim Data & Nuclear Safety)
 EvansNE,Chuck Hansen
 EvansN,Chris Johnson
 Floor3AtriumW,Available
-Floor3AtriumC,Available
+Floor3AtriumC,Valerio - 
 Floor3AtriumE,Available
 Floor3NW,Available
 Floor3NE,Available
