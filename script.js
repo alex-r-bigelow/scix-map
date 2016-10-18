@@ -37,12 +37,15 @@ function showLabel (data, researchArea, targetElement, suppressTransition) {
   }
 }
 function loadSVG () {
-  jQuery.ajax({
-    url: 'map.svg',
-    dataType: 'text'
-  }).done(result => {
-    d3.select('body').html(result);
-    showLabel(null, null, null, true);
+  return new Promise((resolve, reject) => {
+    jQuery.ajax({
+      url: 'map.svg',
+      dataType: 'text'
+    }).done(result => {
+      d3.select('body').html(result);
+      showLabel(null, null, null, true);
+      resolve();
+    });
   });
 }
 function getCSV (url) {
@@ -51,18 +54,18 @@ function getCSV (url) {
   });
 }
 
-Promise.all([loadSVG(), getCSV('spaceAssignments.csv'), getCSV('researchAreas.csv')]).then(results => {
+Promise.all([getCSV('spaceAssignments.csv'), getCSV('researchAreas.csv'), loadSVG()]).then(results => {
   let baseColor = d3.scaleOrdinal(d3.schemeCategory20);
 
   // TODO: group colors by faculty research area
   // let colorLookup = {};
   let facultyLookup = {};
-  results[2].forEach(d => {
+  results[1].forEach(d => {
     facultyLookup[d.Group] = d.Area;
   });
 
   let spaces = d3.select('svg').select('#Layer_2').selectAll('*')
-    .data(results[1], function (d) {
+    .data(results[0], function (d) {
       return d ? d.Space : this.id;
     });
   spaces.style('fill', d => baseColor(d.Group))
