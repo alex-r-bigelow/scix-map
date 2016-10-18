@@ -17,18 +17,22 @@
 	<rect id="Floor4SW" x="602" y="527" class="st0" width="57" height="32"/>
 	<rect id="Floor4SE" x="659" y="527" class="st0" width="58" height="32"/>
 	<rect id="Halverson" x="565" y="232" class="st0" width="37" height="43"/>
+	<rect id="YardensOffice" x="565" y="310.9" class="st0" width="37" height="34.3"/>
 	<rect id="BeerCave" x="717" y="233" class="st0" width="37" height="41"/>
 	<rect id="Floor4AtriumS" x="614" y="273" class="st0" width="90" height="20"/>
 	<rect id="Floor4AtriumN" x="614" y="236" class="st0" width="90" height="20"/>
 	<rect id="Jones" x="466" y="234" class="st0" width="38" height="42"/>
 	<rect id="Lobby" x="363" y="281" class="st0" width="66" height="43"/>
 	<rect id="DiningArea" x="314" y="281" class="st0" width="37" height="63"/>
+	<rect id="CafeHallway" x="351" y="281" class="st0" width="12" height="68.9"/>
 	<rect id="EvansNW" x="364" y="428" class="st0" width="25" height="43"/>
 	<rect id="EvansSE" x="364" y="471" class="st0" width="45" height="59"/>
 	<rect id="EvansSW" x="409" y="471" class="st0" width="45" height="59"/>
 	<rect id="EvansNE" x="428" y="428" class="st0" width="26" height="43"/>
 	<rect id="EvansN" x="389" y="417" class="st0" width="39" height="54"/>
 	<rect id="Floor3AtriumW" x="314" y="233" class="st0" width="50" height="48"/>
+	<rect id="GenesOffice" x="314" y="162.7" class="st0" width="37.2" height="22.4"/>
+	<rect id="YongsOffice" x="314" y="129.1" class="st0" width="37.2" height="33.5"/>
 	<rect id="Floor3AtriumC" x="364" y="237" class="st0" width="45" height="44"/>
 	<polygon id="Floor3AtriumE" class="st0" points="409,237 466,237 466,276 449,276 449,281 409,281 	"/>
 	<rect id="Floor3NW" x="351" y="53" class="st0" width="57" height="24"/>
