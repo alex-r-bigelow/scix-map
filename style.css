@@ -1,0 +1,9 @@
+body, html {
+  margin: 0px;
+  padding: 0px;
+}
+.selected {
+  opacity: 0.75;
+  stroke-width: 2;
+  stroke: black;
+}
