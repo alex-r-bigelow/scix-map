@@ -23,10 +23,10 @@ function showLabel (data, researchArea, targetElement, suppressTransition) {
       x: targetCenter.x + targetCenter.width / 2,
       y: targetCenter.y + targetCenter.height / 2
     };
-    if (targetCenter.x + layerWidth >= 792) { // width of map.svg
+    if (targetCenter.x + layerWidth >= 470) { // width of map.svg
       targetCenter.x -= layerWidth;
     }
-    if (targetCenter.y + 57.7 >= 612) { // height of layer 4, height of map.svg
+    if (targetCenter.y + 57.7 >= 541) { // height of layer 4, height of map.svg
       targetCenter.y -= 57.7;
     }
     layer4.transition(transition)
