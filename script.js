@@ -42,7 +42,7 @@ function loadSVG () {
       url: 'map.svg',
       dataType: 'text'
     }).done(result => {
-      d3.select('body').html(result);
+      d3.select('#map').html(result);
       showLabel(null, null, null, true);
       resolve();
     });
@@ -53,25 +53,93 @@ function getCSV (url) {
     d3.csv(url, resolve);
   });
 }
-
-Promise.all([getCSV('spaceAssignments.csv'), getCSV('researchAreas.csv'), loadSVG()]).then(results => {
-  let baseColor = d3.scaleOrdinal(d3.schemeCategory20);
-
-  // TODO: group colors by faculty research area
-  // let colorLookup = {};
-  let facultyLookup = {};
-  results[1].forEach(d => {
-    facultyLookup[d.Group] = d.Area;
+function getTXT (url) {
+  return new Promise((resolve, reject) => {
+    jQuery.ajax({
+      url: url,
+      dataType: 'text',
+      success: resolve
+    });
   });
+}
 
+Promise.all([getCSV('spaceAssignments.csv'), getCSV('researchAreas.csv'), getTXT('postertitles.txt'), loadSVG()]).then(results => {
+  // Create the color scale and the legend
+  let baseColor = {
+    'Available': '#cccccc',
+    'Intro Room': '#999999',
+    'Scientific Computing': '#e41a1c',
+    'Scientific Visualization': '#377eb8',
+    'Information Visualization': '#4daf4a',
+    'Biomedical Computation': '#ffff33',
+    'Imaging': '#ff7f00'
+  };
+
+  let legendEntries = d3.select('#legend').selectAll('div.legendEntry').data(d3.entries(baseColor));
+  let legendEntriesEnter = legendEntries.enter().append('div')
+    .attr('class', 'legendEntry');
+  legendEntriesEnter.append('div')
+    .attr('class', 'legendLabel')
+    .text(d => d.key);
+  legendEntriesEnter.append('div')
+    .attr('class', 'colorbox')
+    .style('background-color', d => d.value);
+
+  // Apply the colors to the map
   let spaces = d3.select('svg').select('#Layer_2').selectAll('*')
     .data(results[0], function (d) {
       return d ? d.Space : this.id;
     });
-  spaces.style('fill', d => baseColor(d.Group))
-    .attr('title', d => d.Space + ': ' + d.Group + ' (' + (facultyLookup[d.Group] || 'available') + ')')
+  spaces.style('fill', d => baseColor[d.Group])
     .style('cursor', 'pointer')
-    .on('click', function (d) { showLabel(d, facultyLookup[d.Group] || '', this); d3.event.stopPropagation(); });
+    .on('click', function (d) { showLabel(d, d.Details || '', this); d3.event.stopPropagation(); });
   d3.select('body')
     .on('click', function (d) { showLabel(null, null); });
+
+  // Create an author-name lookup
+  let authorAreas = {};
+  results[1].forEach(d => {
+    authorAreas[d['Name']] = d['Area'];
+  });
+
+  // Collect details about posters
+  let posters = [];
+  let title = null;
+  let posterArea = null;
+  let details = [];
+  results[2].split('\n').forEach(d => {
+    if (!d) {
+      if (title !== null) {
+        posters.push({
+          title: title,
+          area: posterArea,
+          details: details
+        });
+      }
+      posterArea = null;
+      title = null;
+      details = [];
+    } else if (title === null) {
+      title = d;
+    } else {
+      details.push(d);
+      d.split(/and|,/g).forEach(d => {
+        let author = d.trim();
+        posterArea = posterArea || authorAreas[author];
+      });
+    }
+  });
+
+  let posterDivs = d3.select('#titles').selectAll('div.poster').data(posters);
+  let posterDivsEnter = posterDivs.enter().append('div')
+    .attr('class', 'poster');
+  posterDivsEnter.append('div')
+    .attr('class', 'colorbox')
+    .style('background-color', d => baseColor[d.area] || baseColor.Available);
+  posterDivsEnter.append('div')
+    .attr('class', 'title')
+    .text(d => d.title);
+  posterDivsEnter.append('div')
+    .attr('class', 'details')
+    .text(d => d.details.join('\n'));
 });

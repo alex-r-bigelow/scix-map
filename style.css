@@ -1,9 +1,73 @@
 body, html {
   margin: 0px;
   padding: 0px;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+body {
+  background-color: #efefef;
+}
+#sidebar, #map {
+  display: inline-block;
+  vertical-align: top;
+}
+#sidebar {
+  width: 35em;
+}
+#sideTop {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 20em;
+}
+#sideTop img {
+  margin-left: 2em;
+}
+#legend {
+  margin-right: 0.5em;
+  min-width: 13em;
+}
+#legend .legendEntry {
+  text-align: right;
+}
+#legend .legendLabel {
+  position: relative;
+  display: inline-block;
+  bottom: 0.75em;
+}
+.colorbox {
+  display: inline-block;
+  width: 1em;
+  height: 1em;
+  border: 3px solid black;
+  margin: 0.5em;
+  border-radius: 3px;
+}
+#titles {
+  overflow-y: scroll;
+  margin: 1em;
+  padding: 1em;
+  border: 3px solid black;
+  border-radius: 3px;
+  height: calc(100vh - 25em);
+}
+#map svg {
+  height: calc(100vh - 1em);
 }
 .selected {
   opacity: 0.75;
   stroke-width: 2;
   stroke: black;
+}
+#Layer_4 {
+  pointer-events: none;
+}
+.poster .title {
+  display: inline-block;
+  font-weight: 900;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+.poster .details {
+  color: #666666;
+  margin-bottom: 1em;
 }

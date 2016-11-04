@@ -1,30 +1,30 @@
-Space,Group
-CoonLab,Valerio Pascucci
-Floor3SW,Imaging overflow
-Floor3SE,Imaging overflow
-Floor4SW,Jeff Weiss
-Floor4SE,Rob MacLeod
-Halverson,Valerio (Microscopy)
-BeerCave,Valerio (Ag Drone - Climate Data - & Telemedicine)
-Floor4AtriumSE,Valerio (Feature-based Analysis)
-Floor4AtriumSW,Valerio (Morse Smale Complex)
-Floor4AtriumNE,Yarden Livnat
-Floor4AtriumNW,Available
-Jones,InfoVis
-Lobby,Intro Room
-DiningArea,Imaging
-EvansNW,Allen Sanderson (Uintah)
-EvansSE,Valerio (PIDX & In Situ Analytics)
-EvansSW,Valerio (High Dim Data & Nuclear Safety & Comp/Decomp)
-EvansNE,Chris Johnson (possibly Paul Rosen as well)
-EvansN,HPC + Sci Comp
-Floor3AtriumW,Available
-Floor3AtriumC,Bei
-Floor3AtriumE,InfoVis
-Floor3NW,Available
-Floor3NE,Orly
-Floor4NE,Chris Butson
-Floor4NW,Chris Butson
-GenesOffice,Gene Payne
-YongsOffice,Yong Wan
-CafeHallway,Sarang Joshi
+Space,Group,Details
+CoonLab,Scientific Visualization,Valerio Pascucci
+Floor3SW,Imaging,Imaging overflow
+Floor3SE,Imaging,Imaging overflow
+Floor4SW,Biomedical Computation,Jeff Weiss
+Floor4SE,Biomedical Computation,Rob MacLeod
+Halverson,Scientific Visualization,Valerio (Microscopy)
+BeerCave,Scientific Visualization,Valerio (Ag Drone - Climate Data - & Telemedicine)
+Floor4AtriumSE,Scientific Visualization,Valerio (Feature-based Analysis)
+Floor4AtriumSW,Scientific Visualization,Valerio (Morse Smale Complex)
+Floor4AtriumNE,Information Visualization,Yarden Livnat
+Floor4AtriumNW,Available,Available
+Jones,Information Visualization,InfoVis
+Lobby,Intro Room,Intro Room
+DiningArea,Imaging,Imaging
+EvansNW,Scientific Computing,Allen Sanderson (Uintah)
+EvansSE,Scientific Visualization,Valerio (PIDX & In Situ Analytics)
+EvansSW,Scientific Visualization,Valerio (High Dim Data & Nuclear Safety)
+EvansNE,Scientific Visualization,Chris Johnson (possibly Paul Rosen as well)
+EvansN,Scientific Computing,HPC + Sci Comp
+Floor3AtriumW,Available,Available
+Floor3AtriumC,Scientific Visualization,Bei
+Floor3AtriumE,Information Visualization,InfoVis
+Floor3NW,Available,Available
+Floor3NE,Scientific Computing,Orly
+Floor4NE,Biomedical Computation,Chris Butson
+Floor4NW,Biomedical Computation,Chris Butson
+GenesOffice,Scientific Visualization,Gene Payne
+YongsOffice,Scientific Visualization,Yong Wan
+CafeHallway,Imaging,Sarang Joshi

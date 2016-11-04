@@ -1,0 +1,93 @@
+In Situ Visualization of Particle Simulations
+Will Usher, Ingo Wald, Aaron Knoll, Michael Papka, Valerio Pascucci
+
+Visually Comparing Weather Features in Forecasts
+P. Samuel Quinan and Miriah Meyer
+
+Platform-Independent Genome-Wide Pattern of DNA Copy-Number Alterations Predicting Astrocytoma Survival and Response to Treatment Revealed by the GSVD Formulated as a Comparative Spectral Decomposition
+Katherine A. Aiello and Orly Alter
+
+A Novel Tensor GSVD Predicting Ovarian Serous Cystadenocarcinoma Survival and Response to Platinum-Based Chemotherapy
+Theodore E. Schomay, Katherine A. Aiello, and Orly Alter
+
+SVD Identifies Transcript Length Distribution Functions from DNA Microarray Data and Reveals Evolutionary Forces Globally Affecting GBM Metabolism
+Nicolas M. Bertagnolli, Justin A. Drake, Jason M. Tennessen and Orly Alter
+
+Detecting copy-number variation using dNTP limited PCR and high-resolution melting
+Luming Zhou, Robert Palais and Carl T. Wittwer
+
+Visualization for Reverse Engineering the Retina
+Ethan Kerzner and Miriah Meyer
+
+Biomedical Image and Data Analysis Core - BIDAC
+Josh Cates, Clement Vachet
+
+Pathfinder: Visual Analysis of Paths in Heterogeneous Graphs
+Christian Partl, Samuel Gratzl, Marc Streit, Anne Mai Wasserman, Hanspeter Pfister, Dieter Schmalstieg, and Alexander Lex
+
+BubbleNet: A Cyber Security Dashboard
+Sean McKenna, Diane Staheli, Cody Fulcher, Miriah Meyer
+
+Grassmannian Atlas: A General Framework for Exploring Linear Projections of High-Dimensional Data
+Shusen Liu, Peer-Timo Bremer, Jayaraman J. Thiagarajan, Bei Wang, Brian Summa, and Valerio Pascucci
+
+PIDX: Scalable I/O for Massive Simulations
+Sidharth Kumar, Steve Petruzza, Duong Hoang, Valerio Pascucci
+
+Brain Source Localization Pipeline
+Ally Warner, Chris Johnson, Moritz Dannhauer
+
+Consortium for ECG Imaging: Advancing ECGI Through Collaboration
+Computational Electrocardiology Group
+
+The Consortium on Electrocardiographic Imaging (CEI)
+R.S. MacLeod, K.K. Aras, W. Good, J. Tate, B.M. Burton, J. Coll-Font, W. Schulze,
+D. Patyogaylo, L. Wang, P. Van Dam O. Doessel, and D.H. Brooks
+
+Patient-Specific Computational Modeling Aids Deep Brain Stimulation Therapies
+Andrew Janson, Johannes Vorwerk PhD, Christopher R. Butson PhD
+
+FEBio: Finite Elements for Biomechanics
+Steve A. Maas, David S. Rawlins, Gerard Ateshian, Benjamin J. Ellis, Jeffrey A. Weiss
+
+Mobile Decision Support System for Nurse Management of Neuromodulation Therapy
+Gordon Duffley, Jens Krueger PhD,AnikoSzabo PhD, Barbara Lutz PhD, Daniel Martinez-Ramirez MD, Michael S. OkunMD, Christopher R. ButsonPhD
+
+Data Tools for ECGI: ECG Forward/Inverse Toolkit and EDGAR Database
+Computational Electrocardiology Group
+
+Effect of Focal Chondral Defects in the Hip: A Framework for Understanding Degradation and Developing Treatment Strategies
+Jocelyn N. Todd, Travis G. Maak, Jeffrey A. Weiss
+
+Which anatomical regions are activated by Deep Brain Stimulation as elucidated by high field diffusion weighted MRI?
+Katherine G. Warthen, Dr. Chris R. Buston, Dr. Justin D. Hilliard, Dr. Kelly D. Foote
+
+Connectomics Empowered By Deep Learning
+Mehran Javanmardi, Mehdi Sajjadi, Tolga Tasdizen
+
+Noninvasive Electrical Diagnosis of Cardiac Abnormalities
+The Computational Electrocardiology Group
+
+Distributed Indoor Air-quality Sensing (DIAS)
+Jimmy Moore, Miriah Meyer
+
+OpenSpace
+Charles Hansen, Gene Payne, Matthew Territo
+
+Modelling Electrochemical Devices
+Chris Gritton, James Guilkey, Justin Hooper, Dmitry Bedrov, Robert M. Kirby, Martin Berzins
+
+Parallel processing of non-human primate brain data
+Steve Petruzza, Aniketh Venkat, Attila Gyulassy, Frederick Federer, Alessandra Angelucci, Peer-Timo Bremer and Valerio Pascucci
+
+The International Neuromodulation Registry
+Butson Lab: Kara Johnson, Gordon Duffley, Andrew Janson, Daria Anderson, Katie Warthen, Shana Black,
+Corinne Garcia, Theresa Lins, Johannes Vorwerk, PhD, Andrea Brock MD, Christopher R. Butson, PhD
+Development: Clement Vachet, Josh Cates of the Biomedical Image and Data Analysis Core (BIDAC),
+Wayne Bradford, David Richardson, Tom Cheatham, Anita Orendt of the Center for High Performance Computing (CHPC)
+
+Data Exploration for Nuclear Safety Analysis
+Dan Maljovec, BeiWang, Paul Rosen, Diego Mandelli, Andrea Alfonsi, Giovanni Pastore, Cristian Rabiti, Valerio Pascucci
+
+Iterating Between Tools to Create and Edit Visualizations
+Alex Bigelow, Steven Drucker, Danyel Fisher, Miriah Meyer
