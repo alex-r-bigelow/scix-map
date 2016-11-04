@@ -55,7 +55,15 @@ function getCSV (url) {
 }
 
 Promise.all([getCSV('spaceAssignments.csv'), getCSV('researchAreas.csv'), loadSVG()]).then(results => {
-  let baseColor = d3.scaleOrdinal(d3.schemeCategory20);
+  let baseColor = {
+    'Available': '#cccccc',
+    'Intro Room': '#999999',
+    'Scientific Computing': '#e41a1c',
+    'Scientific Visualization': '#377eb8',
+    'Information Visualization': '#4daf4a',
+    'Biomedical Computation': '#ffff33',
+    'Imaging': '#ff7f00'
+  };
 
   // TODO: group colors by faculty research area
   // let colorLookup = {};
@@ -68,10 +76,10 @@ Promise.all([getCSV('spaceAssignments.csv'), getCSV('researchAreas.csv'), loadSV
     .data(results[0], function (d) {
       return d ? d.Space : this.id;
     });
-  spaces.style('fill', d => baseColor(d.Group))
+  spaces.style('fill', d => baseColor[d.Group])
     .attr('title', d => d.Space + ': ' + d.Group + ' (' + (facultyLookup[d.Group] || 'available') + ')')
     .style('cursor', 'pointer')
-    .on('click', function (d) { showLabel(d, facultyLookup[d.Group] || '', this); d3.event.stopPropagation(); });
+    .on('click', function (d) { showLabel(d, d.Details || '', this); d3.event.stopPropagation(); });
   d3.select('body')
     .on('click', function (d) { showLabel(null, null); });
 });

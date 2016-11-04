@@ -1,16 +1,79 @@
-Group,Area
-Miriah Meyer,InfoVis
-Alex Lex,InfoVis
-Sarang Joshi,Imaging
-Ross Whitaker,Imaging
-Tom Fletcher,Imaging
-Tolga Tasdizen,Imaging
-Chuck Hansen,SciVis
-Valerio Pascucci,SciVis
-Bei Wang,SciVis
-Mike Kirby,Scientific Computing
-Martin Berzins,Scientific Computing
-Sarang Joshi,Scientific Computing
-Chris Butson,Simulation
-Rob MacLeod,Simulation
-Jeff Weiss,Simulation
+Name,Appointment,Area
+Martin Berzins,Faculty,Scientific Computing
+Chris Gritton,Student,Scientific Computing
+Aaron Knoll,Research Scientist,Scientific Visualization
+Tajo,Student,Scientific Computing
+Damodar Sahasrabudhe,Student,Scientific Computing
+John Holmen,Student,Scientific Computing
+Allen Sanderson,Research Scientist,Scientific Visualization
+Alan Humphreys,Software Developer,Scientific Computing
+John Schmidt,Research Scientist,Scientific Computing
+Brad Perterson,Student,Scientific Computing
+Dav de St. Germain,Software Developer,Scientific Computing
+Erin Linebarger,Student,Scientific Computing
+Akil Narayan,Faculty,Scientific Computing
+Jeff Weiss,Faculty,Biomedical Computation
+Steve Maas,Student,Biomedical Computation
+David Rawlins,Student,Biomedical Computation
+Steven LaBelle,Student,Biomedical Computation
+Jocelyn Todd,Student,Biomedical Computation
+Christopher Butson,Faculty,Biomedical Computation
+Andrew Janson,Student,Biomedical Computation
+Daria Anderson,Student,Biomedical Computation
+Gordon Duffley,Student,Biomedical Computation
+Kara Johnson,Student,Biomedical Computation
+Johannes Vorwerk,PostDoc,Biomedical Computation
+Katie Warthen,Student,Biomedical Computation
+Andrea Brock,Student,Biomedical Computation
+Theresa Lins,Student,Biomedical Computation
+Shana Black,Student,Biomedical Computation
+Alberto Fuentes,Student,Biomedical Computation
+Ally Warner,Student,Biomedical Computation
+Rob MacLeod,Faculty,Biomedical Computation
+Brett Burton,Student,Biomedical Computation
+Jess Tate,Student,Biomedical Computation
+Wilson Good,Student,Biomedical Computation
+Anterpreet Kaur,Student,Biomedical Computation
+Joe Massey,Student,Biomedical Computation
+Alex Gerber,Student,Biomedical Computation
+Barbara Johnston,Visiting faculty,Biomedical Computation
+Peter Johnston,Visiting faculty,Biomedical Computation
+Jessie France,Student,Biomedical Computation
+Miriah Meyer,Faculty,Information Visualization
+Alexander Lex,Faculty,Information Visualization
+Jimmy Moore,Student,Information Visualization
+Alex Bigelow,Student,Information Visualization
+Sean McKenna,Student,Information Visualization
+Ethan Kerzner,Student,Information Visualization
+Carolina Nobre,Student,Information Visualization
+Corinne Garcia,Staff,Administration
+Ed Cask,Staff,Administration
+Valerio Pascucci,Faculty,Scientific Visualization
+Chris Johnson,Faculty,Scientific Visualization
+Chuck Hansen,Faculty,Scientific Visualization
+Bei Wang Phillips,Faculty,Scientific Visualization
+Sidharth Kumar,PostDoc,Scientific Visualization
+Duong Hoang,Student,Scientific Visualization
+Will Usher,Student,Scientific Visualization
+Shusen Liu,Student,Scientific Visualization
+Dan Maljovec,Student,Scientific Visualization
+Aniketh Venkat,Student,Scientific Visualization
+Pavol Klacansky,Student,Scientific Visualization
+Steve Petruzza,Visiting Scholar,Scientific Visualization
+Amy Gooch,Research Scientist,Scientific Visualization
+Cameron Christensen,Research Developer,Scientific Visualization
+Carlos Antola,Collaborator,Scientific Visualization
+Wathsala Widanagamaachchi,Student,Scientific Visualization
+Attila Gyulassy,Visiting Scholar,Scientific Visualization
+Yarden Livnat,Research Faculty,Scientific Visualization
+Laura Lediaev,Student,Scientific Visualization
+Tim Sodergren,Student,Scientific Visualization
+Yong Wan,PostDoc,Scientific Visualization
+Gene Payne,Research Developer,Scientific Visualization
+Orly Alter,Faculty,Biomedical Computation
+Katie Aiello,Student,Biomedical Computation
+Ted Schomay,Student,Biomedical Computation
+Heidi Hanson,Research Faculty,Biomedical Computation
+Nic Bertagnolli,Collaborator,Biomedical Computation
+Luming Zhou,Collaborator,Biomedical Computation
+Christian Paxton,Collaborator,Biomedical Computation

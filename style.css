@@ -7,3 +7,6 @@ body, html {
   stroke-width: 2;
   stroke: black;
 }
+#Layer_4 {
+  pointer-events: none;
+}
