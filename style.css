@@ -1,6 +1,7 @@
 body, html {
   margin: 0px;
   padding: 0px;
+  font-family: 'Source Sans Pro', sans-serif;
 }
 body {
   background-color: #efefef;
@@ -33,20 +34,20 @@ body {
   display: inline-block;
   bottom: 0.75em;
 }
-#legend .colorbox {
+.colorbox {
   display: inline-block;
   width: 1em;
   height: 1em;
   border: 3px solid black;
   margin: 0.5em;
-  border-radius: 2px;
+  border-radius: 3px;
 }
 #titles {
   overflow-y: scroll;
   margin: 1em;
   padding: 1em;
   border: 3px solid black;
-  border-radius: 2px;
+  border-radius: 3px;
   height: calc(100vh - 25em);
 }
 #map svg {
@@ -59,4 +60,14 @@ body {
 }
 #Layer_4 {
   pointer-events: none;
+}
+.poster .title {
+  display: inline-block;
+  font-weight: 900;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+.poster .details {
+  color: #666666;
+  margin-bottom: 1em;
 }

@@ -1,5 +1,3 @@
-SCIX Titles
-
 In Situ Visualization of Particle Simulations
 Will Usher, Ingo Wald, Aaron Knoll, Michael Papka, Valerio Pascucci
 
