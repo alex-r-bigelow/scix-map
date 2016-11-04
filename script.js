@@ -42,7 +42,7 @@ function loadSVG () {
       url: 'map.svg',
       dataType: 'text'
     }).done(result => {
-      d3.select('body').html(result);
+      d3.select('#map').html(result);
       showLabel(null, null, null, true);
       resolve();
     });
@@ -53,8 +53,28 @@ function getCSV (url) {
     d3.csv(url, resolve);
   });
 }
+function getTXT (url) {
+  return new Promise((resolve, reject) => {
+    jQuery.ajax({
+      url: url,
+      dataType: 'text',
+      success: resolve
+    });
+  });
+}
 
-Promise.all([getCSV('spaceAssignments.csv'), getCSV('researchAreas.csv'), loadSVG()]).then(results => {
+Promise.all([getCSV('spaceAssignments.csv'), getCSV('researchAreas.csv'), getTXT('postertitles.txt'), loadSVG()]).then(results => {
+  // Do an inital page layout (but never update again; zooming / resizing should just show scrollbars)
+  /*let mapsize = d3.select('svg')
+    .attr('height', jQuery(window).height())
+    .node().getBoundingClientRect();
+  d3.select('#sidebar')
+    .style('min-width', (jQuery(window).width() - mapsize.width) + 'px')
+    .style('max-width', (jQuery(window).width() - mapsize.width) + 'px')
+    .style('height', jQuery(window).height() + 'px');*/
+
+  d3.select('#titles').html(results[2]);
+
   let baseColor = {
     'Available': '#cccccc',
     'Intro Room': '#999999',
@@ -64,6 +84,16 @@ Promise.all([getCSV('spaceAssignments.csv'), getCSV('researchAreas.csv'), loadSV
     'Biomedical Computation': '#ffff33',
     'Imaging': '#ff7f00'
   };
+
+  let legendEntries = d3.select('#legend').selectAll('div.legendEntry').data(d3.entries(baseColor));
+  let legendEntriesEnter = legendEntries.enter().append('div')
+    .attr('class', 'legendEntry');
+  legendEntriesEnter.append('div')
+    .attr('class', 'legendLabel')
+    .text(d => d.key);
+  legendEntriesEnter.append('div')
+    .attr('class', 'colorbox')
+    .style('background-color', d => d.value);
 
   // TODO: group colors by faculty research area
   // let colorLookup = {};
