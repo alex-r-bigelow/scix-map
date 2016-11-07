@@ -40,6 +40,9 @@ Ally Warner, Chris Johnson, Moritz Dannhauer
 Consortium for ECG Imaging: Advancing ECGI Through Collaboration
 Computational Electrocardiology Group
 
+Electrocardiographic Imaging (ECGI)
+Computational Electrocardiology Group
+
 The Consortium on Electrocardiographic Imaging (CEI)
 R.S. MacLeod, K.K. Aras, W. Good, J. Tate, B.M. Burton, J. Coll-Font, W. Schulze,
 D. Patyogaylo, L. Wang, P. Van Dam O. Doessel, and D.H. Brooks
