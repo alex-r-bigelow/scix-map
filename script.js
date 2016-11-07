@@ -11,11 +11,9 @@ function showLabel (data, researchArea, targetElement, suppressTransition) {
     layer4.transition(transition).attr('opacity', 0);
   } else {
     let textElements = [
-      d3.select('#SpaceLabel').text(data.Space).node(),
-      d3.select('#GroupLabel').text(data.Group).node(),
-      d3.select('#ResearchAreaLabel').text(researchArea).node()
+      d3.select('#GroupLabel').text(data.Group).node()
     ];
-    let layerWidth = Math.max(...textElements.map(d => 100 + d.getComputedTextLength()));
+    let layerWidth = Math.max(...textElements.map(d => 120 + d.getComputedTextLength()));
     layer4.select('#Background').attr('width', layerWidth);
 
     let targetCenter = targetElement.getBBox();
