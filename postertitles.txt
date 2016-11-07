@@ -80,6 +80,9 @@ Charles Hansen, Gene Payne, Matthew Territo
 Modelling Electrochemical Devices
 Chris Gritton, James Guilkey, Justin Hooper, Dmitry Bedrov, Robert M. Kirby, Martin Berzins
 
+Preparing Uintah for Intel Xeon Phi-based Supercomputers
+John Holmen, Damodar Sahasrabudhe, Daniel Sunderland, Alan Humphrey, and Martin Berzins
+
 Parallel processing of non-human primate brain data
 Steve Petruzza, Aniketh Venkat, Attila Gyulassy, Frederick Federer, Alessandra Angelucci, Peer-Timo Bremer and Valerio Pascucci
 
