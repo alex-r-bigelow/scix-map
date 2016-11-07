@@ -89,7 +89,7 @@ function getTXT (url) {
 Promise.all([getCSV('spaceAssignments.csv'), getCSV('researchAreas.csv'), getTXT('postertitles.txt'), loadSVG()]).then(results => {
   // Create the color scale and the legend
   let baseColor = {
-    'Intro Room': '#999999',
+    'Intro Room': '#984ea3',
     'Scientific Computing': '#ff7f00',
     'Scientific Visualization': '#377eb8',
     'Information Visualization': '#e41a1c',
