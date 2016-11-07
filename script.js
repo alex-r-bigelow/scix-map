@@ -10,6 +10,7 @@ function showLabel (data, researchArea, targetElement, suppressTransition) {
   if (!data || !targetElement) {
     layer4.transition(transition).attr('opacity', 0);
   } else {
+    highlightAll(null);
     let textElements = [
       d3.select('#GroupLabel').text(data.Group).node()
     ];
@@ -33,6 +34,22 @@ function showLabel (data, researchArea, targetElement, suppressTransition) {
 
     d3.select(targetElement).classed('selected', true);
   }
+}
+function highlightAll (researchArea) {
+  if (researchArea) {
+    showLabel(null, null);
+  }
+  let transition = d3.transition()
+    .duration(ANIMATION_SPEED);
+  d3.select('svg').select('#Layer_2').selectAll('*')
+    .transition(transition)
+    .attr('opacity', d => {
+      if (!researchArea || d.Group === researchArea) {
+        return 1.0;
+      } else {
+        return 0.25;
+      }
+    });
 }
 function loadSVG () {
   return new Promise((resolve, reject) => {
@@ -64,7 +81,6 @@ function getTXT (url) {
 Promise.all([getCSV('spaceAssignments.csv'), getCSV('researchAreas.csv'), getTXT('postertitles.txt'), loadSVG()]).then(results => {
   // Create the color scale and the legend
   let baseColor = {
-    'Available': '#cccccc',
     'Intro Room': '#999999',
     'Scientific Computing': '#ff7f00',
     'Scientific Visualization': '#377eb8',
@@ -81,7 +97,8 @@ Promise.all([getCSV('spaceAssignments.csv'), getCSV('researchAreas.csv'), getTXT
     .text(d => d.key);
   legendEntriesEnter.append('div')
     .attr('class', 'colorbox')
-    .style('background-color', d => d.value);
+    .style('background-color', d => d.value)
+    .on('click', d => { highlightAll(d.key); d3.event.stopPropagation(); });
 
   // Apply the colors to the map
   let spaces = d3.select('svg').select('#Layer_2').selectAll('*')
@@ -90,9 +107,10 @@ Promise.all([getCSV('spaceAssignments.csv'), getCSV('researchAreas.csv'), getTXT
     });
   spaces.style('fill', d => baseColor[d.Group])
     .style('cursor', 'pointer')
+    .attr('opacity', 1.0)
     .on('click', function (d) { showLabel(d, d.Details || '', this); d3.event.stopPropagation(); });
   d3.select('body')
-    .on('click', function (d) { showLabel(null, null); });
+    .on('click', function (d) { showLabel(null, null); highlightAll(null); });
 
   // Create an author-name lookup
   let authorAreas = {};
@@ -133,7 +151,8 @@ Promise.all([getCSV('spaceAssignments.csv'), getCSV('researchAreas.csv'), getTXT
     .attr('class', 'poster');
   posterDivsEnter.append('div')
     .attr('class', 'colorbox')
-    .style('background-color', d => baseColor[d.area] || baseColor.Available);
+    .style('background-color', d => baseColor[d.area] || baseColor.Available)
+    .on('click', d => { highlightAll(d.area); d3.event.stopPropagation(); });
   posterDivsEnter.append('div')
     .attr('class', 'title')
     .text(d => d.title);
