@@ -83,6 +83,12 @@ Chris Gritton, James Guilkey, Justin Hooper, Dmitry Bedrov, Robert M. Kirby, Mar
 Preparing Uintah for Intel Xeon Phi-based Supercomputers
 John Holmen, Damodar Sahasrabudhe, Daniel Sunderland, Alan Humphrey, and Martin Berzins
 
+The WRF Single-Moment 6-Class Microphysics (WSM6) Performance Optimization
+Timbwaoga Aime Judcael Ouermi (TAJO), Aaron Knoll, Robert M Kirby, Martin Berzins
+
+Improving Clean Coal Technologies
+Martin Berzins
+
 Parallel processing of non-human primate brain data
 Steve Petruzza, Aniketh Venkat, Attila Gyulassy, Frederick Federer, Alessandra Angelucci, Peer-Timo Bremer and Valerio Pascucci
 
