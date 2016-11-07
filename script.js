@@ -50,6 +50,14 @@ function highlightAll (researchArea) {
         return 0.25;
       }
     });
+  d3.select('#titles').selectAll('div.poster')
+    .style('display', d => {
+      if (!researchArea || d.area === researchArea) {
+        return null;
+      } else {
+        return 'none';
+      }
+    });
 }
 function loadSVG () {
   return new Promise((resolve, reject) => {
