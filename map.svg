@@ -379,8 +379,8 @@
 		c0-0.2-0.1-0.4-0.2-0.6c-0.6-0.5-1.2-0.4-1.9-0.4c-3.9,0-7.8,0-11.8,0c-0.9,0-1.8,0-2.6,0c-0.4,0-0.8-0.1-1.2-0.1
 		c-0.1-0.4-0.1-0.6-0.2-0.9c0.2-0.2,0.3-0.3,0.4-0.4c0.6-0.1,1.1-0.1,1.7-0.1c5,0,10.1,0,15.1,0
 		C158.4,254.3,159.1,254.4,159.9,254.5z"/>
-	<text transform="matrix(1 0 0 1 96.1111 15.0645)" class="st1 st2">3rd Floor</text>
-	<text transform="matrix(1 0 0 1 314.3671 15.0643)" class="st1 st2">4th Floor</text>
+	<text transform="matrix(1 0 0 1 96.0977 15.0645)" class="st1 st2">3rd Floor</text>
+	<text transform="matrix(1 0 0 1 323.9023 15.0643)" class="st1 st2">4th Floor</text>
 	<text transform="matrix(1 0 0 1 182.912 510.6063)" class="st1 st3">3602</text>
 	<text transform="matrix(1 0 0 1 182.912 470.016)" class="st1 st3">3608</text>
 	<text transform="matrix(1 0 0 1 182.912 437.8129)" class="st4 st1 st3">3616</text>
@@ -413,7 +413,7 @@
 	<text transform="matrix(1 0 0 1 29.7452 109.8719)" class="st1 st3">3883</text>
 	<text transform="matrix(1 0 0 1 29.7452 80.7723)" class="st1 st3">3887</text>
 	<text transform="matrix(1 0 0 1 29.7452 41.3995)" class="st1 st3">3893</text>
-	<text transform="matrix(1 0 0 1 106.1448 88.5053)" class="st5"><tspan x="0" y="0" class="st4 st1 st3">3780</tspan><tspan x="-28.5" y="8.4" class="st4 st1 st3">Evans Conference Room</tspan></text>
+	<text transform="matrix(1 0 0 1 106.1448 78.5053)" class="st5"><tspan x="0" y="0" class="st4 st1 st3">3780</tspan><tspan x="-28.5" y="8.4" class="st4 st1 st3">Evans Conference Room</tspan></text>
 	<text transform="matrix(1 0 0 1 74.9422 161.8106)" class="st1 st3">3872</text>
 	<text transform="matrix(1 0 0 1 137.3945 161.8105)" class="st1 st3">3760a</text>
 	<text transform="matrix(1 0 0 1 106.1446 195.9858)" class="st5"><tspan x="0" y="0" class="st1 st3">3760</tspan><tspan x="-10.9" y="8.4" class="st1 st3">Student Lab</tspan></text>
