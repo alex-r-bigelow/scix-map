@@ -147,7 +147,7 @@ Promise.all([getCSV('spaceAssignments.csv'), getCSV('researchAreas.csv'), getTXT
       title = d;
     } else {
       details.push(d);
-      d.split(/and|,/g).forEach(d => {
+      d.split(/\band\b|,/g).forEach(d => {
         let author = d.trim();
         posterArea = posterArea || authorAreas[author];
       });

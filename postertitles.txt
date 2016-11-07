@@ -60,7 +60,7 @@ Effect of Focal Chondral Defects in the Hip: A Framework for Understanding Degra
 Jocelyn N. Todd, Travis G. Maak, Jeffrey A. Weiss
 
 Which anatomical regions are activated by Deep Brain Stimulation as elucidated by high field diffusion weighted MRI?
-Katherine G. Warthen, Dr. Chris R. Buston, Dr. Justin D. Hilliard, Dr. Kelly D. Foote
+Katherine G. Warthen, Dr. Chris R. Butson, Dr. Justin D. Hilliard, Dr. Kelly D. Foote
 
 Connectomics Empowered By Deep Learning
 Mehran Javanmardi, Mehdi Sajjadi, Tolga Tasdizen
