@@ -28,6 +28,7 @@ body {
 }
 #legend .legendEntry {
   text-align: right;
+  cursor: pointer;
 }
 #legend .legendLabel {
   position: relative;
@@ -41,7 +42,6 @@ body {
   border: 3px solid black;
   margin: 0.5em;
   border-radius: 3px;
-  cursor: pointer;
 }
 #titles {
   overflow-y: scroll;
@@ -59,14 +59,23 @@ body {
   stroke-width: 2;
   stroke: black;
 }
-#Layer_4 {
+#Layer_4, #Layer_3 {
   pointer-events: none;
 }
+.poster {
+  cursor: pointer;
+}
+.poster .colorbox {
+  margin: 0em 0.5em 0em 0em;
+  width: 0.5em;
+  height: 0.5em;
+}
 .poster .title {
-  display: inline-block;
+  display: inline;
   font-weight: 900;
   text-transform: uppercase;
   letter-spacing: 2px;
+  font-size: 1em;
 }
 .poster .details {
   color: #666666;

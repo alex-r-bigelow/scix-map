@@ -99,14 +99,14 @@ Promise.all([getCSV('spaceAssignments.csv'), getCSV('researchAreas.csv'), getTXT
 
   let legendEntries = d3.select('#legend').selectAll('div.legendEntry').data(d3.entries(baseColor));
   let legendEntriesEnter = legendEntries.enter().append('div')
-    .attr('class', 'legendEntry');
+    .attr('class', 'legendEntry')
+    .on('click', d => { highlightAll(d.key); d3.event.stopPropagation(); });
   legendEntriesEnter.append('div')
     .attr('class', 'legendLabel')
     .text(d => d.key);
   legendEntriesEnter.append('div')
     .attr('class', 'colorbox')
-    .style('background-color', d => d.value)
-    .on('click', d => { highlightAll(d.key); d3.event.stopPropagation(); });
+    .style('background-color', d => d.value);
 
   // Apply the colors to the map
   let spaces = d3.select('svg').select('#Layer_2').selectAll('*')
@@ -156,11 +156,11 @@ Promise.all([getCSV('spaceAssignments.csv'), getCSV('researchAreas.csv'), getTXT
 
   let posterDivs = d3.select('#titles').selectAll('div.poster').data(posters);
   let posterDivsEnter = posterDivs.enter().append('div')
-    .attr('class', 'poster');
+    .attr('class', 'poster')
+    .on('click', d => { highlightAll(d.area); d3.event.stopPropagation(); });
   posterDivsEnter.append('div')
     .attr('class', 'colorbox')
-    .style('background-color', d => baseColor[d.area] || baseColor.Available)
-    .on('click', d => { highlightAll(d.area); d3.event.stopPropagation(); });
+    .style('background-color', d => baseColor[d.area] || baseColor.Available);
   posterDivsEnter.append('div')
     .attr('class', 'title')
     .text(d => d.title);
