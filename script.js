@@ -66,11 +66,11 @@ Promise.all([getCSV('spaceAssignments.csv'), getCSV('researchAreas.csv'), getTXT
   let baseColor = {
     'Available': '#cccccc',
     'Intro Room': '#999999',
-    'Scientific Computing': '#e41a1c',
+    'Scientific Computing': '#ff7f00',
     'Scientific Visualization': '#377eb8',
-    'Information Visualization': '#4daf4a',
+    'Information Visualization': '#e41a1c',
     'Biomedical Computation': '#ffff33',
-    'Imaging': '#ff7f00'
+    'Imaging': '#4daf4a'
   };
 
   let legendEntries = d3.select('#legend').selectAll('div.legendEntry').data(d3.entries(baseColor));
