@@ -89,6 +89,9 @@ Timbwaoga Aime Judcael Ouermi (TAJO), Aaron Knoll, Robert M Kirby, Martin Berzin
 Improving Clean Coal Technologies
 Martin Berzins
 
+Physically Constrained Ensemble Kalman Filter
+Erin Linebarger, Akil Narayan, Dongbin Xiu
+
 Parallel processing of non-human primate brain data
 Steve Petruzza, Aniketh Venkat, Attila Gyulassy, Frederick Federer, Alessandra Angelucci, Peer-Timo Bremer and Valerio Pascucci
 
