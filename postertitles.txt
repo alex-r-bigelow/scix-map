@@ -271,3 +271,6 @@ Allen Sanderson and Charles Hansen
 
 OpenSpace
 Gene Payne, Matthew Territo, and Charles Hansen
+
+Neuron Microscopy Data Tracing in Virtual Reality
+Pavol Klacansky, Will Usher, and Valerio Pascucci
