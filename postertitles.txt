@@ -274,3 +274,6 @@ Gene Payne, Matthew Territo, and Charles Hansen
 
 Neuron Microscopy Data Tracing in Virtual Reality
 Pavol Klacansky, Will Usher, and Valerio Pascucci
+
+Intel’s OSPRay Renderer on a Displaywall
+Laura Lediaev and Chris Johnson
