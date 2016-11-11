@@ -127,18 +127,20 @@ Promise.all([getCSV('spaceAssignments.csv'), getCSV('researchAreas.csv'), getTXT
   });
 
   // Collect details about posters
+  let allTitles = {};
   let posters = [];
   let title = null;
   let posterArea = null;
   let details = [];
   results[2].split('\n').forEach(d => {
     if (!d) {
-      if (title !== null) {
+      if (title !== null && !(title in allTitles)) {
         posters.push({
           title: title,
           area: posterArea,
           details: details
         });
+        allTitles[title] = true;
       }
       posterArea = null;
       title = null;

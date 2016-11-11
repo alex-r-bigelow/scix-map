@@ -106,3 +106,168 @@ Dan Maljovec, BeiWang, Paul Rosen, Diego Mandelli, Andrea Alfonsi, Giovanni Past
 
 Iterating Between Tools to Create and Edit Visualizations
 Alex Bigelow, Steven Drucker, Danyel Fisher, Miriah Meyer
+
+Platform-Independent Genome-Wide Pattern of DNA Copy-Number Alterations Predicting Astrocytoma Survival and Response to Treatment Revealed by the GSVD Formulated as a Comparative Spectral Decomposition
+Katherine A. Aiello and Orly Alter
+
+A Novel Tensor GSVD Predicting Ovarian Serous Cystadenocarcinoma Survival and Response to Platinum-Based Chemotherapy
+Theodore E. Schomay, Katherine A. Aiello, and Orly Alter
+
+SVD Identifies Transcript Length Distribution Functions from DNA Microarray Data and Reveals Evolutionary Forces Globally Affecting GBM Metabolism
+Nicolas M. Bertagnolli, Justin A. Drake, Jason M. Tennessen and Orly Alter
+
+Detecting copy-number variation using dNTP limited PCR and high-resolution melting
+Luming Zhou, Robert Palais and Carl T. Wittwer
+
+In Situ Visualization of Particle Simulations
+Will Usher, Ingo Wald, Aaron Knoll, Michael Papka, Valerio Pascucci
+
+Grassmannian Atlas: A General Framework for Exploring Linear Projections of High-Dimensional Data
+Shusen Liu, Peer-Timo Bremer, Jayaraman J. Thiagarajan, Bei Wang, Brian Summa, and Valerio Pascucci
+
+PIDX: Scalable I/O for Massive Simulations
+Sidharth Kumar, Steve Petruzza, Duong Hoang, Valerio Pascucci
+
+Brain Source Localization Pipeline
+Ally Warner, Chris Johnson, Moritz Dannhauer
+
+OpenSpace
+Charles Hansen, Gene Payne, Matthew Territo
+
+Parallel processing of non-human primate brain data
+Steve Petruzza, Aniketh Venkat, Attila Gyulassy, Frederick Federer, Alessandra Angelucci, Peer-Timo Bremer and Valerio Pascucci
+
+Data Exploration for Nuclear Safety Analysis
+Dan Maljovec, BeiWang, Paul Rosen, Diego Mandelli, Andrea Alfonsi, Giovanni Pastore, Cristian Rabiti, Valerio Pascucci
+
+Interactive Analysis of Petascale Climate Datasets
+Cameron Christensen, Shusen Liu, Peer-Timo Bremer, Valerio Pascucci
+
+Direct Multifield Volume Ray Casting of Fiber Surfaces
+Kui Wu, Aaron Knoll, Benjamin J Isaac, Hamish Carr, Valerio Pascucci
+
+Interactive Visualization and Exploration of Tracking Graphs for Understanding Evolution of Features
+Wathsala Widanagamaachchi, Peer-Timo Bremer, Valerio Pascucci
+
+Interactive Topological Exploration of Particle Ensembles
+Harsh Bhatia, Pavol Klacansky, Shusen Liu, Wathsala Widanagamaachchi, Attila Gyulassy, Valerio Pascucci, Peer-Timo Bremer
+
+ViSOAR Ag Explorer
+Amy A. Gooch, Giorgio Scorzelli, Attila Gyulassy, Peer-Timo Bremer, Valerio Pascucci
+
+Telemedicine: ViSOAR Share
+Luis Carlos Antola, Amy A. Gooch, Giorgio Scorzelli, Attila Gyulassy, Valerio Pascucci
+
+Data Acquisition, Management and Computation for Neuroscience
+Aniketh Venkat, Frederick Federer, Steve Petruzza, Attila Gyulassy, Alessandra Angelucci and Valerio Pascucci
+
+Robust Feature Simplification of Vector Fields
+Bei Wang, Primoz Skraba, Paul Rosen, Guoning Chen, Harsh Bhatia and Valerio Pascucci
+
+Analysis and Visualization of ALMA Data Cubes
+Paul Rosen, Bei Wang, Chris Johnson, Jeff Kern, Betsy Mills, Anil Seth
+
+Finding Hidden Shapes: Topology for Feature-Based Reasoning
+Attila Gyulassy, Harsh Bhatia, Aaron Knoll, Bei Wang, Peer-Timo Bremer, Valerio Pascucci
+
+Visually Comparing Weather Features in Forecasts
+P. Samuel Quinan and Miriah Meyer
+
+Visualization for Reverse Engineering the Retina
+Ethan Kerzner and Miriah Meyer
+
+Pathfinder: Visual Analysis of Paths in Heterogeneous Graphs
+Christian Partl, Samuel Gratzl, Marc Streit, Anne Mai Wasserman, Hanspeter Pfister, Dieter Schmalstieg, and Alexander Lex
+
+BubbleNet: A Cyber Security Dashboard
+Sean McKenna, Diane Staheli, Cody Fulcher, Miriah Meyer
+
+Distributed Indoor Air-quality Sensing (DIAS)
+Jimmy Moore, Miriah Meyer
+
+DragonView: Toward Understanding Network Interference in Dragonfly-based Supercomputers
+Yarden Livnat, Abhinav Bhatele, Nikhil Jain, Peer-Timo Bremer, Valerio Pascucci
+
+Biomedical Image and Data Analysis Core - BIDAC
+Josh Cates, Clement Vachet
+
+Connectomics Empowered By Deep Learning
+Mehran Javanmardi, Mehdi Sajjadi, Tolga Tasdizen
+
+Magnetic Resonance Imaging Uses
+Eleanor Wong and Blake Zimmerman
+
+MRI and CT Basis for SCI Imaging Projects
+Markus Foote and Blake Zimmerman
+
+Motion Estimation in Medical Images
+Markus Foote, Caleb Rottman, Sarang Joshi
+
+Generalized Data Depth and Applications
+Mukund Raj, Mahsa Mirzargar, Robert M. Kirby and Ross T. Whitaker
+
+Quantitative Analysis of Femoral Cortical Bone Thickness using Shape Analysis
+Praful Agrawal, Shireen Y. Elhabian, Penny Atkins, Ross T. Whitaker, Jeff Weiss, and Andrew E. Anderson
+
+Objective Severity Metric for Craniosynostosis
+Riddhish Bhalodia, Ladislav Kavan, Ross Whitaker
+
+Virtual Neurophysiology Workbench
+Alberto Fuentes, Christopher R. Butson PhD
+
+Patient-Specific Computational Modeling Aids Deep Brain Stimulation Therapies
+Andrew Janson, Johannes Vorwerk PhD, Christopher R. Butson PhD
+
+Mobile Decision Support System for Nurse Management of Neuromodulation Therapy
+Gordon Duffley, Jens Krueger PhD,AnikoSzabo PhD, Barbara Lutz PhD, Daniel Martinez-Ramirez MD, Michael S. OkunMD, Christopher R. ButsonPhD
+
+Which anatomical regions are activated by Deep Brain Stimulation as elucidated by high field diffusion weighted MRI?
+Katherine G. Warthen, Dr. Chris R. Buston, Dr. Justin D. Hilliard, Dr. Kelly D. Foote
+
+FEBio: Finite Elements for Biomechanics
+Steve A. Maas, David S. Rawlins, Gerard Ateshian, Benjamin J. Ellis, Jeffrey A. Weiss
+
+Effect of Focal Chondral Defects in the Hip: A Framework for Understanding Degradation and Developing Treatment Strategies
+Jocelyn N. Todd, Travis G. Maak, Jeffrey A. Weiss
+
+Data Tools for ECGI: ECG Forward/Inverse Toolkit and EDGAR Database
+Computational Electrocardiology Group
+
+Noninvasive Electrical Diagnosis of Cardiac Abnormalities
+The Computational Electrocardiology Group
+
+The International Neuromodulation Registry
+Butson Lab: Kara Johnson, Gordon Duffley, Andrew Janson, Daria Anderson, Katie Warthen, Shana Black,
+Corinne Garcia, Theresa Lins, Johannes Vorwerk, PhD, Andrea Brock MD, Christopher R. Butson, PhD
+Development: Clement Vachet, Josh Cates of the Biomedical Image and Data Analysis Core (BIDAC),
+Wayne Bradford, David Richardson, Tom Cheatham, Anita Orendt of the Center for High Performance Computing (CHPC)
+
+Electrocardiographic Imaging (ECGI)
+Computational Electrocardiology Group
+
+Consortium for ECG Imaging: Advancing ECGI Through Collaboration
+Computational Electrocardiology Group
+
+Modelling Electrochemical Devices
+Chris Gritton, James Guilkey, Justin Hooper, Dmitry Bedrov, Robert M. Kirby, Martin Berzins
+
+Preparing Uintah for Intel Xeon Phi-based Supercomputers
+John Holmen, Damodar Sahasrabudhe, Daniel Sunderland, Alan Humphrey, and Martin Berzins
+
+The WRF Single-Moment 6-Class Microphysics’ (WSM6) Performance Optimization
+Timbwaoga Aime Judcael Ouermi (TAJO), Aaron Knoll, Robert M Kirby, Martin Berzins
+
+Improving Clean Coal Technologies
+Martin Berzins
+
+Physically Constrained Ensemble Kalman Filter
+Erin Linebarger, Akil Narayan, Dongbin Xiu
+
+FluoRender
+Yong Wan and Charles Hansen
+
+Uintah In-situ Visualization
+Allen Sanderson and Charles Hansen
+
+OpenSpace
+Gene Payne, Matthew Territo, and Charles Hansen
