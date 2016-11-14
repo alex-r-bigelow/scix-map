@@ -4,7 +4,7 @@
 	 viewBox="0 0 476.7 541" style="enable-background:new 0 0 476.7 541;" xml:space="preserve">
 <style type="text/css">
 	.st0{fill:#2BB673;}
-	.st1{font-family:'SourceSansPro-Regular';}
+	.st1{font-family:'Source Sans Pro';}
 	.st2{font-size:9px;}
 	.st3{font-size:7px;}
 	.st4{fill:#FFFFFF;}
@@ -18,14 +18,14 @@
 	<polygon id="Floor4S" class="st0" points="374.3,51.2 431.3,51.2 431.3,19.2 374.3,19.2 316.3,19.2 316.3,51.2 	"/>
 	<rect id="Halverson" x="431.3" y="303.2" class="st0" width="37" height="43"/>
 	<rect id="BeerCave" x="279.3" y="304.2" class="st0" width="37" height="41"/>
-	<polygon id="Floor4AtriumS" class="st0" points="362.8,305.2 362.9,305.2 396,305.2 396,285.2 362.9,285.2 362.8,285.2 
+	<polygon id="Floor4AtriumS" class="st0" points="362.8,305.2 362.9,305.2 396,305.2 396,285.2 362.9,285.2 362.8,285.2
 		329.7,285.2 329.7,305.2 	"/>
 	<polygon id="Floor4AtriumN" class="st0" points="407.2,305.2 418.3,305.2 418.3,285.2 407.2,285.2 396,285.2 396,305.2 	"/>
 	<rect id="Jones" x="50.5" y="303.4" class="st0" width="38" height="42"/>
 	<rect id="Reception" x="125.5" y="255.4" class="st0" width="66" height="43"/>
 	<polygon id="DiningArea" class="st0" points="240.5,298.4 191,298.4 191,229 203.5,229 203.5,235.4 240.5,235.4 	"/>
 	<polygon id="EvansS" class="st0" points="145.5,108.4 190.5,108.4 190.5,49.4 145.5,49.4 100.5,49.4 100.5,108.4 	"/>
-	<polygon id="EvansN" class="st0" points="126.5,151.4 126.5,162.4 165.5,162.4 165.5,151.4 190.5,151.4 190.5,108.4 165.5,108.4 
+	<polygon id="EvansN" class="st0" points="126.5,151.4 126.5,162.4 165.5,162.4 165.5,151.4 190.5,151.4 190.5,108.4 165.5,108.4
 		126.5,108.4 100.5,108.4 100.5,151.4 	"/>
 	<rect id="GenesOffice" x="203.3" y="394.3" class="st0" width="37.2" height="22.4"/>
 	<rect id="YongsOffice" x="203.3" y="416.8" class="st0" width="37.2" height="33.5"/>
