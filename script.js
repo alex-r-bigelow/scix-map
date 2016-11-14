@@ -127,6 +127,8 @@ Promise.all([getCSV('spaceAssignments.csv'), getCSV('researchAreas.csv'), getTXT
       });
     }
   });
+  window.posters = posters;
+  posters.sort((a, b) => a.title >= b.title ? 1 : -1);
 
   let posterDivs = d3.select('#titles').selectAll('div.poster').data(posters);
   let posterDivsEnter = posterDivs.enter().append('div')
