@@ -201,7 +201,7 @@ MRI and CT Basis for SCI Imaging Projects
 Markus Foote and Blake Zimmerman
 
 Motion Estimation in Medical Images
-Markus Foote, Caleb Rottman, Sarang Joshi
+Markus Foote, Caleb Rottman, Pouya Sabouri, Amit Sawant, Ganesh Adluru, Edward DiBella, Sarang Joshi
 
 Generalized Data Depth and Applications
 Mukund Raj, Mahsa Mirzargar, Robert M. Kirby and Ross T. Whitaker
@@ -274,6 +274,18 @@ Gene Payne, Matthew Territo, and Charles Hansen
 
 Neuron Microscopy Data Tracing in Virtual Reality
 Pavol Klacansky, Will Usher, and Valerio Pascucci
+
+Intel’s OSPRay Renderer on a Displaywall
+Laura Lediaev and Chris Johnson
+
+Uintah In-situ Visualization
+Allen Sanderson, Charles Hansen, and Martin Berzins
+
+FluoRender
+Yong Wan and Charles Hansen
+
+Neuron Microscopy Data Tracing in Virtual Reality
+Pavol Klacansky and Valerio Pascucci
 
 Intel’s OSPRay Renderer on a Displaywall
 Laura Lediaev and Chris Johnson
