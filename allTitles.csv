@@ -1,0 +1,62 @@
+Area|Track|Title|Details
+BeerCave|Scientific Visualization|Interactive Analysis of Petascale Climate Datasets|Cameron Christensen, Shusen Liu, Peer-Timo Bremer, Valerio Pascucci
+BeerCave|Scientific Visualization|Telemedicine: ViSOAR Share|Luis Carlos Antola, Amy A. Gooch, Giorgio Scorzelli, Attila Gyulassy, Valerio Pascucci
+BeerCave|Scientific Visualization|ViSOAR Ag Explorer|Amy A. Gooch, Giorgio Scorzelli, Attila Gyulassy, Peer-Timo Bremer, Valerio Pascucci
+CoonLab|Scientific Visualization|Intel’s OSPRay Renderer on a Displaywall|Laura Lediaev and Chris Johnson
+DiningArea|Imaging|Biomedical Image and Data Analysis Core - BIDAC|Josh Cates, Clement Vachet
+DiningArea|Imaging|Connectomics Empowered By Deep Learning|Mehran Javanmardi, Mehdi Sajjadi, Tolga Tasdizen
+DiningArea|Imaging|Deep Learning in Geoscience: Imitating the Experts|Mehran Javanmardi, Gene Payne, Daniel Perry, Ross Whitaker
+DiningArea|Imaging|Generalized Data Depth and Applications|Mukund Raj, Mahsa Mirzargar, Robert M. Kirby and Ross T. Whitaker
+DiningArea|Imaging|Magnetic Resonance Imaging Uses|Eleanor Wong and Blake Zimmerman
+DiningArea|Imaging|Motion Estimation in Medical Images|Markus Foote, Caleb Rottman, Pouya Sabouri, Amit Sawant, Ganesh Adluru, Edward DiBella, Sarang Joshi
+DiningArea|Imaging|MRI and CT Basis for SCI Imaging Projects|Markus Foote and Blake Zimmerman
+DiningArea|Imaging|Objective Severity Metric for Craniosynostosis|Riddhish Bhalodia, Ladislav Kavan, Ross Whitaker
+DiningArea|Imaging|Quantitative Analysis of Femoral Cortical Bone Thickness using Shape Analysis|Praful Agrawal, Shireen Y. Elhabian, Penny Atkins, Ross T. Whitaker, Jeff Weiss, and Andrew E. Anderson
+EvansN|Scientific Computing|Improving Clean Coal Technologies|Martin Berzins
+EvansN|Scientific Computing|Modelling Electrochemical Devices|Chris Gritton, James Guilkey, Justin Hooper, Dmitry Bedrov, Robert M. Kirby, Martin Berzins
+EvansN|Scientific Computing|Physically Constrained Ensemble Kalman Filter|Erin Linebarger, Akil Narayan, Dongbin Xiu
+EvansN|Scientific Computing|Preparing Uintah for Intel Xeon Phi-based Supercomputers|John Holmen, Damodar Sahasrabudhe, Daniel Sunderland, Alan Humphrey, and Martin Berzins
+EvansN|Scientific Computing|The WRF Single-Moment 6-Class Microphysics (WSM6) Performance Optimization|Timbwaoga Aime Judcael Ouermi (TAJO), Aaron Knoll, Robert M Kirby, Martin Berzins
+EvansN|Scientific Computing|The WRF Single-Moment 6-Class Microphysics’ (WSM6) Performance Optimization|Timbwaoga Aime Judcael Ouermi (TAJO), Aaron Knoll, Robert M Kirby, Martin Berzins
+EvansS|Scientific Visualization|Analysis and Visualization of ALMA Data Cubes|Paul Rosen, Bei Wang, Chris Johnson, Jeff Kern, Betsy Mills, Anil Seth
+EvansS|Scientific Visualization|Data Exploration for Nuclear Safety Analysis|Dan Maljovec, BeiWang, Paul Rosen, Diego Mandelli, Andrea Alfonsi, Giovanni Pastore, Cristian Rabiti, Valerio Pascucci
+EvansS|Scientific Visualization|Direct Multifield Volume Ray Casting of Fiber Surfaces|Kui Wu, Aaron Knoll, Benjamin J Isaac, Hamish Carr, Valerio Pascucci
+EvansS|Scientific Visualization|Grassmannian Atlas: A General Framework for Exploring Linear Projections of High-Dimensional Data|Shusen Liu, Peer-Timo Bremer, Jayaraman J. Thiagarajan, Bei Wang, Brian Summa, and Valerio Pascucci
+EvansS|Scientific Visualization|In Situ Visualization of Particle Simulations|Will Usher, Ingo Wald, Aaron Knoll, Michael Papka, Valerio Pascucci
+EvansS|Scientific Visualization|PIDX: Scalable I/O for Massive Simulations|Sidharth Kumar, Steve Petruzza, Duong Hoang, Valerio Pascucci
+EvansS|Scientific Visualization|Uintah In-situ Visualization|Allen Sanderson and Charles Hansen
+Floor3AtriumE|Information Visualization|BubbleNet: A Cyber Security Dashboard|Sean McKenna, Diane Staheli, Cody Fulcher, Miriah Meyer
+Floor3AtriumE|Information Visualization|Iterating Between Tools to Create and Edit Visualizations|Alex Bigelow, Steven Drucker, Danyel Fisher, Miriah Meyer
+Floor3AtriumW|Scientific Visualization|Robust Feature Simplification of Vector Fields|Bei Wang, Primoz Skraba, Paul Rosen, Guoning Chen, Harsh Bhatia and Valerio Pascucci
+Floor3N|Biomedical Computation|A Novel Tensor GSVD Predicting Ovarian Serous Cystadenocarcinoma Survival and Response to Platinum-Based Chemotherapy|Theodore E. Schomay, Katherine A. Aiello, and Orly Alter
+Floor3N|Biomedical Computation|Detecting copy-number variation using dNTP limited PCR and high-resolution melting|Luming Zhou, Robert Palais and Carl T. Wittwer
+Floor3N|Biomedical Computation|Mathematical Vocabulary for Biological Discovery|Principles of Nature from Integration and Comparison of Large-Scale Molecular Biological Data\nOrly Alter
+Floor3N|Biomedical Computation|Platform-Independent Genome-Wide Pattern of DNA Copy-Number Alterations Predicting Astrocytoma Survival and Response to Treatment Revealed by the GSVD Formulated as a Comparative Spectral Decomposition|Katherine A. Aiello and Orly Alter
+Floor3N|Biomedical Computation|SVD Identifies Transcript Length Distribution Functions from DNA Microarray Data and Reveals Evolutionary Forces Globally Affecting GBM Metabolism|Nicolas M. Bertagnolli, Justin A. Drake, Jason M. Tennessen and Orly Alter
+Floor4AtriumSE|Scientific Visualization|Finding Hidden Shapes: Topology for Feature-Based Reasoning|Attila Gyulassy, Harsh Bhatia, Aaron Knoll, Bei Wang, Peer-Timo Bremer, Valerio Pascucci
+Floor4AtriumSE|Scientific Visualization|Interactive Topological Exploration of Particle Ensembles|Harsh Bhatia, Pavol Klacansky, Shusen Liu, Wathsala Widanagamaachchi, Attila Gyulassy, Valerio Pascucci, Peer-Timo Bremer
+Floor4AtriumSE|Scientific Visualization|Interactive Visualization and Exploration of Tracking Graphs for Understanding Evolution of Features|Wathsala Widanagamaachchi, Peer-Timo Bremer, Valerio Pascucci
+Floor4AtriumSW|Information Visualization|DragonView: Toward Understanding Network Interference in Dragonfly-based Supercomputers|Yarden Livnat, Abhinav Bhatele, Nikhil Jain, Peer-Timo Bremer, Valerio Pascucci
+Floor4AtriumSW|Information Visualization|Visual Analytics for Situational Awareness|(and how to get the software out of your way...)\nYarden Livnat, Matt Semore, Per Gesteland, Adi Gundlapalli, Geoff Draper, Orly Alter, Chris Barrett, Paul Wilson
+Floor4N|Biomedical Computation|Brain Source Localization Pipeline|Ally Warner, Chris Johnson, Moritz Dannhauer
+Floor4N|Biomedical Computation|Mobile Decision Support System for Nurse Management of Neuromodulation Therapy|Gordon Duffley, Jens Krueger PhD,AnikoSzabo PhD, Barbara Lutz PhD, Daniel Martinez-Ramirez MD, Michael S. OkunMD, Christopher R. ButsonPhD
+Floor4N|Biomedical Computation|Patient-Specific Computational Modeling Aids Deep Brain Stimulation Therapies|Andrew Janson, Johannes Vorwerk PhD, Christopher R. Butson PhD
+Floor4N|Biomedical Computation|The International Neuromodulation Registry|Butson Lab: Kara Johnson, Gordon Duffley, Andrew Janson, Daria Anderson, Katie Warthen, Shana Black, Corinne Garcia, Theresa Lins, Johannes Vorwerk, PhD, Andrea Brock MD, Christopher R. Butson, PhD\nDevelopment: Clement Vachet, Josh Cates of the Biomedical Image and Data Analysis Core (BIDAC), Wayne Bradford, David Richardson, Tom Cheatham, Anita Orendt of the Center for High Performance Computing (CHPC)
+Floor4N|Biomedical Computation|Virtual Neurophysiology Workbench|Alberto Fuentes, Christopher R. Butson PhD
+Floor4N|Biomedical Computation|Which anatomical regions are activated by Deep Brain Stimulation as elucidated by high field diffusion weighted MRI?|Katherine G. Warthen, Dr. Chris R. Butson, Dr. Justin D. Hilliard, Dr. Kelly D. Foote
+Floor4SE|Biomedical Computation|Effect of Focal Chondral Defects in the Hip: A Framework for Understanding Degradation and Developing Treatment Strategies|Jocelyn N. Todd, Travis G. Maak, Jeffrey A. Weiss
+Floor4SE|Biomedical Computation|FEBio: Finite Elements for Biomechanics|Steve A. Maas, David S. Rawlins, Gerard Ateshian, Benjamin J. Ellis, Jeffrey A. Weiss
+Floor4SW|Biomedical Computation|Consortium for ECG Imaging: Advancing ECGI Through Collaboration|Computational Electrocardiology Group
+Floor4SW|Biomedical Computation|Data Tools for ECGI: ECG Forward/Inverse Toolkit and EDGAR Database|Computational Electrocardiology Group
+Floor4SW|Biomedical Computation|Electrocardiographic Imaging (ECGI)|Computational Electrocardiology Group
+Floor4SW|Biomedical Computation|Noninvasive Electrical Diagnosis of Cardiac Abnormalities|The Computational Electrocardiology Group
+GenesOffice|Scientific Visualization|OpenSpace|Charles Hansen, Gene Payne, Matthew Territo
+Halverson|Scientific Visualization|Aligning the brain: A Parallel Solution for Tera-pixel Imagery|Steve Petruzza, Aniketh Venkat, Attila Gyulassy, Frederick Federer, Alessandra Angelucci, Peer-Timo Bremer and Valerio Pascucci
+Halverson|Scientific Visualization|Data Acquisition, Management and Computation for Neuroscience|Aniketh Venkat, Frederick Federer, Steve Petruzza, Attila Gyulassy, Alessandra Angelucci and Valerio Pascucci
+Halverson|Scientific Visualization|Neuron Microscopy Data Tracing in Virtual Reality|Pavol Klacansky, Will Usher, and Valerio Pascucci
+Halverson|Scientific Visualization|Parallel processing of non-human primate brain data|Steve Petruzza, Aniketh Venkat, Attila Gyulassy, Frederick Federer, Alessandra Angelucci, Peer-Timo Bremer and Valerio Pascucci
+Jones|Information Visualization|Distributed Indoor Air-quality Sensing (DIAS)|Jimmy Moore, Miriah Meyer
+Jones|Information Visualization|Pathfinder: Visual Analysis of Paths in Heterogeneous Graphs|Christian Partl, Samuel Gratzl, Marc Streit, Anne Mai Wasserman, Hanspeter Pfister, Dieter Schmalstieg, and Alexander Lex
+Jones|Information Visualization|Visualization for Reverse Engineering the Retina|Ethan Kerzner and Miriah Meyer
+Jones|Information Visualization|Visually Comparing Weather Features in Forecasts|P. Samuel Quinan and Miriah Meyer
+YongsOffice|Scientific Visualization|FluoRender|Yong Wan and Charles Hansen
