@@ -3,9 +3,9 @@ BeerCave|Scientific Visualization|Interactive Analysis of Petascale Climate Data
 BeerCave|Scientific Visualization|Telemedicine: ViSOAR Share|Luis Carlos Antola, Amy A. Gooch, Giorgio Scorzelli, Attila Gyulassy, Valerio Pascucci
 BeerCave|Scientific Visualization|ViSOAR Ag Explorer|Amy A. Gooch, Giorgio Scorzelli, Attila Gyulassy, Peer-Timo Bremer, Valerio Pascucci
 CoonLab|Scientific Visualization|Intel’s OSPRay Renderer on a Displaywall|Laura Lediaev and Chris Johnson
-DiningArea|Imaging|Biomedical Image and Data Analysis Core - BIDAC|Josh Cates, Clement Vachet
-DiningArea|Imaging|Connectomics Empowered By Deep Learning|Mehran Javanmardi, Mehdi Sajjadi, Tolga Tasdizen
-DiningArea|Imaging|Deep Learning in Geoscience: Imitating the Experts|Mehran Javanmardi, Gene Payne, Daniel Perry, Ross Whitaker
+Floor3S|Imaging|Biomedical Image and Data Analysis Core - BIDAC|Josh Cates, Clement Vachet
+Floor3S|Imaging|Connectomics Empowered By Deep Learning|Mehran Javanmardi, Mehdi Sajjadi, Tolga Tasdizen
+Floor3S|Imaging|Deep Learning in Geoscience: Imitating the Experts|Mehran Javanmardi, Gene Payne, Daniel Perry, Ross Whitaker
 DiningArea|Imaging|Generalized Data Depth and Applications|Mukund Raj, Mahsa Mirzargar, Robert M. Kirby and Ross T. Whitaker
 DiningArea|Imaging|Magnetic Resonance Imaging Uses|Eleanor Wong and Blake Zimmerman
 DiningArea|Imaging|Motion Estimation in Medical Images|Markus Foote, Caleb Rottman, Pouya Sabouri, Amit Sawant, Ganesh Adluru, Edward DiBella, Sarang Joshi
@@ -16,7 +16,6 @@ EvansN|Scientific Computing|Improving Clean Coal Technologies|Martin Berzins
 EvansN|Scientific Computing|Modelling Electrochemical Devices|Chris Gritton, James Guilkey, Justin Hooper, Dmitry Bedrov, Robert M. Kirby, Martin Berzins
 EvansN|Scientific Computing|Physically Constrained Ensemble Kalman Filter|Erin Linebarger, Akil Narayan, Dongbin Xiu
 EvansN|Scientific Computing|Preparing Uintah for Intel Xeon Phi-based Supercomputers|John Holmen, Damodar Sahasrabudhe, Daniel Sunderland, Alan Humphrey, and Martin Berzins
-EvansN|Scientific Computing|The WRF Single-Moment 6-Class Microphysics (WSM6) Performance Optimization|Timbwaoga Aime Judcael Ouermi (TAJO), Aaron Knoll, Robert M Kirby, Martin Berzins
 EvansN|Scientific Computing|The WRF Single-Moment 6-Class Microphysics’ (WSM6) Performance Optimization|Timbwaoga Aime Judcael Ouermi (TAJO), Aaron Knoll, Robert M Kirby, Martin Berzins
 EvansS|Scientific Visualization|Analysis and Visualization of ALMA Data Cubes|Paul Rosen, Bei Wang, Chris Johnson, Jeff Kern, Betsy Mills, Anil Seth
 EvansS|Scientific Visualization|Data Exploration for Nuclear Safety Analysis|Dan Maljovec, BeiWang, Paul Rosen, Diego Mandelli, Andrea Alfonsi, Giovanni Pastore, Cristian Rabiti, Valerio Pascucci
