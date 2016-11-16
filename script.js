@@ -133,5 +133,9 @@ d3.text('map.svg', function (mapContent) {
     titleDivsEnter.append('div')
       .attr('class', 'details')
       .text(d => d.Details);
+
+    d3.select(document).on('click', function () {
+      highlightTitle(null);
+    });
   });
 });

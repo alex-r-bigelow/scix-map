@@ -4,7 +4,7 @@
 	 viewBox="0 0 476.7 541" style="enable-background:new 0 0 476.7 541;" xml:space="preserve">
 <style type="text/css">
 	.st0{fill:#2BB673;}
-	.st1{font-family:'SourceSansPro-Regular';}
+	.st1{font-family:'Source Sans Pro';}
 	.st2{font-size:9px;}
 	.st3{font-size:7px;}
 	.st4{fill:#FFFFFF;}
@@ -18,17 +18,16 @@
 	<polygon id="Floor4SE" class="st0" points="339.2,51.2 362,51.2 362,19.2 339.2,19.2 316,19.2 316,51.2 	"/>
 	<rect id="Halverson" x="431.3" y="303.2" class="st0" width="37" height="43"/>
 	<rect id="BeerCave" x="279.3" y="304.2" class="st0" width="37" height="41"/>
-	<polygon id="Floor4AtriumSE" class="st0" points="362.8,305.2 362.9,305.2 396,305.2 396,285.2 362.9,285.2 362.8,285.2 
+	<polygon id="Floor4AtriumSE" class="st0" points="362.8,305.2 362.9,305.2 396,305.2 396,285.2 362.9,285.2 362.8,285.2
 		329.7,285.2 329.7,305.2 	"/>
 	<polygon id="Floor4AtriumSW" class="st0" points="407.2,305.2 418.3,305.2 418.3,285.2 407.2,285.2 396,285.2 396,305.2 	"/>
 	<rect id="Jones" x="50.5" y="303.4" class="st0" width="38" height="42"/>
 	<polygon id="DiningArea" class="st0" points="240.5,298.4 191,298.4 191,229 203.5,229 203.5,235.4 240.5,235.4 	"/>
 	<polygon id="EvansS" class="st0" points="145.5,108.4 190.5,108.4 190.5,49.4 145.5,49.4 100.5,49.4 100.5,108.4 	"/>
-	<polygon id="EvansN" class="st0" points="126.5,151.4 126.5,162.4 165.5,162.4 165.5,151.4 190.5,151.4 190.5,108.4 165.5,108.4 
+	<polygon id="EvansN" class="st0" points="126.5,151.4 126.5,162.4 165.5,162.4 165.5,151.4 190.5,151.4 190.5,108.4 165.5,108.4
 		126.5,108.4 100.5,108.4 100.5,151.4 	"/>
 	<rect id="GenesOffice" x="203.3" y="394.3" class="st0" width="37.2" height="22.4"/>
 	<rect id="YongsOffice" x="203.3" y="416.8" class="st0" width="37.2" height="33.5"/>
-	<polygon id="Floor3AtriumW" class="st0" points="206,346.6 191,346.6 191,342.4 158.5,342.4 158.5,298.4 206,298.4 	"/>
 	<polygon id="Floor3AtriumE" class="st0" points="134,342.4 88.5,342.4 88.5,303.4 105.8,303.4 105.8,298.4 134,298.4 	"/>
 	<polygon id="Floor3N" class="st0" points="146.5,526.4 203.5,526.4 203.5,502.4 146.5,502.4 88.5,502.4 88.5,526.4 	"/>
 	<polygon id="Floor4N" class="st0" points="374.3,526.2 431.3,526.2 431.3,502.2 374.3,502.2 316.3,502.2 316.3,526.2 	"/>
