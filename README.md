@@ -1,5 +1,34 @@
-Edit the two CSV files to assign research groups to areas in SCI (feel free to comment if I've done something silly).
+[Interactive map](https://alex-r-bigelow.github.io/scix-map/) for in-house SCI events
 
-Check the [interactive map](https://alex-r-bigelow.github.io/scix-map/) to make sure it worked.
+## Updating the map
 
-TODO: Once assignments have settled down a little, I should add a custom color map (e.g. InfoVis = shades of yellow, Imaging = shades of blue, etc) with a legend.
+The Area column of `allTitles.csv` corresponds to `id` attributes in `map.svg`.
+
+To edit map areas, open `map.svg` in [Inkscape](https://inkscape.org/). All the interactive elements should be kept inside the `InteractiveLayer` Layer, and you can use Inkscape's XML view to add / edit `ids`:
+
+![Editing the map in Inkscape](inkscape.png)
+
+Additionally, if you add or change Track values in `allTitles.csv`, make sure to update `colorMap` in `script.js`
+
+## Local setup
+
+```bash
+# Install NVM, node.js
+curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.7/install.sh | bash
+
+nvm install node
+
+# Clone the repository
+git clone git@github.com:alex-r-bigelow/scix-map.git
+cd scix-map
+
+# Install and run the development server
+npm install
+npm run serve
+```
+
+## Public setup
+
+To display the map on the touch table (or other display), open a browser and navigate to `https://alex-r-bigelow.github.io/scix-map`
+
+If you've forked this repository, make sure that Github Pages is using the `main` branch, and that the QR code still points to the correct map!

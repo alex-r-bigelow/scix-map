@@ -1,141 +1,172 @@
-/* globals d3 */
+import * as d3 from "https://cdn.jsdelivr.net/npm/d3@7/+esm";
 
-var ANIMATION_SPEED = 300;
+const ANIMATION_SPEED = 300;
 
-var currentSelection = null;
+let currentSelection = null;
 
-function updateHighlight (includeTrack, includeArea, includeTitle) {
-  var transition = d3.transition()
-    .duration(ANIMATION_SPEED);
+// Objects for looking things up:
+const areaToTrack = {};
+const trackToArea = {};
+const titleToArea = {};
+
+function updateHighlight(includeTrack, includeArea, includeTitle) {
+  const transition = d3.transition().duration(ANIMATION_SPEED);
   // Update the tracks in the legend
-  d3.select('#legend').selectAll('div.legendEntry')
+  d3.select("#legend")
+    .selectAll("div.legendEntry")
     .transition(transition)
-    .style('opacity', function (d) { return includeTrack(d) ? 1.0 : 0.25; });
+    .style("opacity", function (d) {
+      return includeTrack(d) ? 1.0 : 0.25;
+    });
   // Update the areas in the map
-  d3.select('svg').select('#Layer_2').selectAll('*')
+  const areas = d3
+    .select("#map svg #InteractiveLayer")
+    .selectAll("*")
     .transition(transition)
-    .attr('opacity', function (d) { return includeArea(d) ? 1.0 : 0.25; });
+    .attr("opacity", function (d) {
+      return includeArea(d) ? 1.0 : 0.25;
+    });
   // Update the list of titles
-  d3.select('#titles').selectAll('div.poster')
-    .style('display', function (d) { return includeTitle(d) ? null : 'none'; });
+  d3.select("#titles")
+    .selectAll("div.poster")
+    .style("display", function (d) {
+      return includeTitle(d) ? null : "none";
+    });
 }
-function highlightTitle (title) {
+function highlightTitle(title) {
   currentSelection = currentSelection === title ? null : title;
-  var includeTrack = function (d) {
-    return currentSelection === null || window.areaToTrack[window.titleToArea[title]] === d;
+  const includeTrack = function (d) {
+    return currentSelection === null || areaToTrack[titleToArea[title]] === d;
   };
-  var includeArea = function (d) {
-    return currentSelection === null || window.titleToArea[title] === d.key;
+  const includeArea = function (d) {
+    return currentSelection === null || titleToArea[title] === d;
   };
-  var includeTitle = function (d) {
+  const includeTitle = function (d) {
     return currentSelection === null || title === d.Title;
   };
   updateHighlight(includeTrack, includeArea, includeTitle);
 }
-function highlightArea (area) {
+function highlightArea(area) {
   currentSelection = currentSelection === area ? null : area;
-  var includeTrack = function (d) {
-    return currentSelection === null || window.areaToTrack[area] === d;
+  const includeTrack = function (d) {
+    return currentSelection === null || areaToTrack[area] === d;
   };
-  var includeArea = function (d) {
-    return currentSelection === null || area === d.key;
+  const includeArea = function (d) {
+    return currentSelection === null || area === d;
   };
-  var includeTitle = function (d) {
+  const includeTitle = function (d) {
     return currentSelection === null || area === d.Area;
   };
   updateHighlight(includeTrack, includeArea, includeTitle);
 }
-function highlightTrack (track) {
+function highlightTrack(track) {
   currentSelection = currentSelection === track ? null : track;
-  var includeTrack = function (d) {
+  const includeTrack = function (d) {
     return currentSelection === null || track === d;
   };
-  var includeArea = function (d) {
-    return currentSelection === null || track === d.value;
+  const includeArea = function (d) {
+    return currentSelection === null || track === areaToTrack[d];
   };
-  var includeTitle = function (d) {
+  const includeTitle = function (d) {
     return currentSelection === null || track === d.Track;
   };
   updateHighlight(includeTrack, includeArea, includeTitle);
 }
 
-d3.text('map.svg', function (mapContent) {
-  d3.select('#map').html(mapContent);
-  d3.text('allTitles.csv', function (posterText) {
-    var posters = d3.dsvFormat('|').parse(posterText);
-    // A little data reshaping...
-    posters.sort((a, b) => a.title >= b.title ? 1 : -1);
-    window.posters = posters;
+globalThis.onload = async () => {
+  const mapContent = await (await fetch("map.svg")).text();
+  d3.select("#map").html(mapContent);
+  const posterText = await (await fetch("allTitles.csv")).text();
 
-    // Construct lookups for cleaner interaction code
-    var areaToTrack = {};
-    var trackToAreas = {};
-    var titleToArea = {};
-    posters.forEach(d => {
-      areaToTrack[d.Area] = d.Track;
+  const posters = d3.dsvFormat("|").parse(posterText);
+  // Sort posters by title
+  posters.sort((a, b) => (a.title >= b.title ? 1 : -1));
 
-      if (trackToAreas.hasOwnProperty(d.Track) === false) {
-        trackToAreas[d.Track] = [];
-      }
-      trackToAreas[d.Track].push(d.Area);
+  posters.forEach((d) => {
+    areaToTrack[d.Area] = d.Track;
 
-      titleToArea[d.Title] = d.Area;
-    });
-    window.areaToTrack = areaToTrack;
-    window.trackToAreas = trackToAreas;
-    window.titleToArea = titleToArea;
+    if (trackToArea.hasOwnProperty(d.Track) === false) {
+      trackToArea[d.Track] = [];
+    }
+    trackToArea[d.Track].push(d.Area);
 
-    posters.forEach(d => {
-      areaToTrack[d.Area] = d.Track;
-    });
-    window.areaToTrack = areaToTrack;
-
-    // Create the color scale and the legend
-    var colorMap = {
-      'Scientific Computing': '#e2831e',
-      'Scientific Visualization': '#377eb8',
-      'Information Visualization': '#e41a1c',
-      'Biomedical Computation': '#ffff33',
-      'Imaging': '#4daf4a'
-    };
-
-    var legendEntries = d3.select('#legend').selectAll('div.legendEntry').data(d3.keys(trackToAreas));
-    var legendEntriesEnter = legendEntries.enter().append('div')
-      .attr('class', 'legendEntry')
-      .on('click', d => { highlightTrack(d); d3.event.stopPropagation(); });
-    legendEntriesEnter.append('div')
-      .attr('class', 'colorbox')
-      .style('background-color', d => colorMap[d]);
-    legendEntriesEnter.append('div')
-      .attr('class', 'legendLabel')
-      .text(d => d);
-
-    // Apply the colors to the map
-    var spaces = d3.select('svg').select('#Layer_2').selectAll('*')
-      .data(d3.entries(areaToTrack), function (d) {
-        return d ? d.key : this.id;
-      });
-    spaces.style('fill', d => colorMap[d.value])
-      .style('cursor', 'pointer')
-      .attr('opacity', 1.0)
-      .on('click', function (d) { highlightArea(d.key); d3.event.stopPropagation(); });
-
-    var titleDivs = d3.select('#titles').selectAll('div.poster').data(posters);
-    var titleDivsEnter = titleDivs.enter().append('div')
-      .attr('class', 'poster')
-      .on('click', d => { highlightTitle(d.Title); d3.event.stopPropagation(); });
-    titleDivsEnter.append('div')
-      .attr('class', 'colorbox')
-      .style('background-color', d => colorMap[d.Track]);
-    titleDivsEnter.append('div')
-      .attr('class', 'title')
-      .text(d => d.Title);
-    titleDivsEnter.append('div')
-      .attr('class', 'details')
-      .text(d => d.Details);
-
-    d3.select(document).on('click', function () {
-      highlightTitle(null);
-    });
+    titleToArea[d.Title] = d.Area;
   });
-});
+
+  posters.forEach((d) => {
+    areaToTrack[d.Area] = d.Track;
+  });
+
+  // Create the color scale and the legend
+  const colorMap = {
+    "Scientific Computing": "#e2831e",
+    "Scientific Visualization": "#377eb8",
+    "Information Visualization": "#e41a1c",
+    "Biomedical Computation": "#ffff33",
+    Imaging: "#4daf4a",
+  };
+
+  const legendEntries = d3
+    .select("#legend")
+    .selectAll("div.legendEntry")
+    .data(Object.keys(trackToArea));
+  const legendEntriesEnter = legendEntries
+    .enter()
+    .append("div")
+    .attr("class", "legendEntry")
+    .on("click", (event, d) => {
+      highlightTrack(d);
+      event.stopPropagation();
+    });
+  legendEntriesEnter
+    .append("div")
+    .attr("class", "colorbox")
+    .style("background-color", (d) => colorMap[d]);
+  legendEntriesEnter
+    .append("div")
+    .attr("class", "legendLabel")
+    .text((d) => d);
+
+  // Apply the colors to the map
+  const spaces = d3
+    .select("#map svg #InteractiveLayer")
+    .selectAll("*")
+    .data(Object.keys(areaToTrack), function (d) {
+      // Initial setup: match the Area column to SVG ids
+      return d ? d : this.id;
+    });
+  spaces
+    .style("fill", (d) => colorMap[areaToTrack[d]])
+    .style("cursor", "pointer")
+    .attr("opacity", 1.0)
+    .on("click", function (event, d) {
+      highlightArea(d);
+      event.stopPropagation();
+    });
+
+  const titleDivs = d3.select("#titles").selectAll("div.poster").data(posters);
+  const titleDivsEnter = titleDivs
+    .enter()
+    .append("div")
+    .attr("class", "poster")
+    .on("click", (event, d) => {
+      highlightTitle(d.Title);
+      event.stopPropagation();
+    });
+  titleDivsEnter
+    .append("div")
+    .attr("class", "colorbox")
+    .style("background-color", (d) => colorMap[d.Track]);
+  titleDivsEnter
+    .append("div")
+    .attr("class", "title")
+    .text((d) => d.Title);
+  titleDivsEnter
+    .append("div")
+    .attr("class", "details")
+    .text((d) => d.Details);
+
+  d3.select(document).on("click", function () {
+    highlightTitle(null);
+  });
+};

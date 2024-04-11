@@ -1,0 +1,22 @@
+{
+  "name": "scix-map",
+  "version": "1.0.0",
+  "description": "Map for SCI exhibitions",
+  "main": "script.js",
+  "scripts": {
+    "serve": "serve ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alex-r-bigelow/scix-map.git"
+  },
+  "author": "Alex Bigelow, SCI Institute",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/alex-r-bigelow/scix-map/issues"
+  },
+  "homepage": "https://github.com/alex-r-bigelow/scix-map#readme",
+  "dependencies": {
+    "serve": "^14.2.1"
+  }
+}
