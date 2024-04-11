@@ -31,4 +31,4 @@ npm run serve
 
 To display the map on the touch table (or other display), open a browser and navigate to `https://alex-r-bigelow.github.io/scix-map`
 
-If you've forked this repository, make sure that Github Pages is using the `main` branch, and that the QR code still points to the correct map!
+Or, if you'd rather display a fork of this repository, make sure that Github Pages is using your `main` branch, and that the tiny url / QR code still point to the correct map!
